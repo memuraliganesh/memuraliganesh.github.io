@@ -12,39 +12,6 @@
             color: #000;
             background-color: #f8f9fa;
         }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            overflow: hidden;
-            padding: 0 20px;
-        }
-        .skillset, .certificates {
-            background: #fff;
-            margin: 20px 0;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            text-transform: uppercase;
-            color: #333;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            background: #e7e7e7;
-            margin-bottom: 10px;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            padding: 1px;
-            background: #333;
-            color: #fff;
-        }
         /* Header styles */
         header {
             background: #333;
@@ -65,17 +32,56 @@
             display: flex;
         }
         nav ul li {
-            padding: 0 15px;
+        padding: 0 15px;
+        background: none; 
+        border: none;
+    }
+    nav ul li a {
+        color: #fff; 
+        font-weight: 500;
+        transition: color 0.3s ease;
+        text-decoration: none; 
+    }
+    nav ul li a:hover {
+        color: #ccc; 
+    }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
         }
-        nav ul li a {
-            text-decoration: none;
+        .skillset, .certificates {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-transform: uppercase;
+            color: #333;
+        }
+        
+        ull {
+            list-style: none;
+            padding: 0;
+        }
+        ull li {
+            background: #e7e7e7;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1px;
+            background: #333;
             color: #fff;
-            font-weight: 500;
-            transition: color 0.3s ease;
         }
-        nav ul li a:hover {
-            color: #ccc;
-        }
+        
     </style>
 </head>
 <body>
@@ -93,23 +99,23 @@
     <div class="container">
         <div class="skillset">
             <h2>Skills</h2>
-            <ul>
+            <ull>
                 <li>Text Editors: Word, Latex</li>
                 <li>Design Tools: Auto CAD, Minitab</li>
                 <li>Simulation Tools: Unisim, Aspen</li>
                 <li>Computation: Matlab, C, Python</li>
                 <li>Languages: English (Professional), Telugu (Native), Hindi(Professional)</li>
-            </ul>
+            </ull>
         </div>
         <div class="certificates">
             <h2>Certificates</h2>
-            <ul>
+            <ull>
             	<li><a href="URL_FOR_CERTIFICATE_1" target="_blank">Six Sigma and the Organization (Advanced) - Kennesaw State University via Coursera.</a></li>
                 <li><a href="URL_FOR_CERTIFICATE_1" target="_blank">Non-Equilibrium Applications of Statistical Thermodynamics by University of Colorado</a></li>
                 <li><a href="URL_FOR_CERTIFICATE_2" target="_blank">Quantum Mechanics - University of Colorado via Coursera</a></li>
                 <li><a href="URL_FOR_CERTIFICATE_3" target="_blank">Dense Gases, Liquids and Solids Ideal Gases - University of Colorado via Coursera</a></li>
                 <li><a href="URL_FOR_CERTIFICATE_4" target="_blank">Statistical Molecular Thermodynamics - University of Minnesota via Coursera</a></li>
-            </ul>
+            </ull>
         </div>
         
     </div>
