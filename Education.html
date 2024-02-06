@@ -13,42 +13,37 @@
             background-color: #f8f9fa;
         }
         .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: white;
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        .skillset, .certificates {
+            background: #fff;
+            margin: 20px 0;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            color: #000;
-            font-weight: 800;
-            margin-bottom: 20px;
-        }
-        .education, .work-experience {
-            margin-bottom: 30px;
-        }
-        .education-title, .work-title {
-            color: #000;
-            font-weight: 600;
-            margin-bottom: 5px;
-        }
-        .education-details, .work-details {
-            background: #e9e9e9;
-            padding: 15px;
-            border-left: 5px solid #333333;
-            margin-bottom: 10px;
-        }
-        
-        .education-description, .work-description {
-            margin: 0;
+            text-transform: uppercase;
             color: #333;
         }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e7e7e7;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
         footer {
+            text-align: center;
+            padding: 1px;
             background: #333;
             color: #fff;
-            text-align: center;
-            padding: 10px 0;
         }
         /* Header styles */
         header {
@@ -84,7 +79,7 @@
     </style>
 </head>
 <body>
-    <header>
+	<header>
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
@@ -96,41 +91,29 @@
         </nav>
     </header>
     <div class="container">
-        <h2>Education</h2>
-        <div class="education">
-            <div class="education-title">State University of New York, Buffalo</div>
-            <div class="education-details">
-                <p class="degree"><strong>Master's in Chemical Engineering</strong></p>
-                <p class="coursework">Relevant coursework: Applied Chemical Kinetics, Material Principles, Principles of Nano Sensors, Six Sigma for Chemical Engineers.</p>
-                <div class="details">
-                    Buffalo, USA <br>
-                    August 2023 – June 2025 <br>
-                    <span class="cgpa">CGPA: 3.67/4</span>
-                </div>
-            </div>
-            <div class="education-title">SRM Institute of Science and Technology</div>
-            <div class="education-details">
-                <p class="degree"><strong>B.Tech in Chemical Engineering</strong></p>
-                <p class="coursework">Relevant coursework: Fluid Mechanics, Chemical Process Calculation, Heat Transfer, Thermodynamics, and more.</p>
-                <div class="details">
-                    Kattankulathur, India <br>
-                    June 2018 – Sept 2022 <br>
-                    <span class="cgpa">CGPA: 8.7/10</span>
-                </div>
-            </div>
-            <div class="education-title">Sri Chaitanya Junior College (BIEAP)</div>
-            <div class="education-details">
-                <p class="degree"><strong>Intermediate</strong></p>
-                <div class="details">
-                    Andhra Pradesh, India <br>
-                    June 2016 – May 2018 <br>
-                    <span class="percentage">Percentage: 95.6%</span>
-                </div>
-            </div>
+        <div class="skillset">
+            <h2>Skills</h2>
+            <ul>
+                <li>Text Editors: Word, Latex</li>
+                <li>Design Tools: Auto CAD, Minitab</li>
+                <li>Simulation Tools: Unisim, Aspen</li>
+                <li>Computation: Matlab, C, Python</li>
+                <li>Languages: English (Professional), Telugu (Native), Hindi(Professional)</li>
+            </ul>
         </div>
+        <div class="certificates">
+            <h2>Certificates</h2>
+            <ul>
+                <li><a href="URL_FOR_CERTIFICATE_1" target="_blank">Non-Equilibrium Applications of Statistical Thermodynamics by University of Colorado</a></li>
+                <li><a href="URL_FOR_CERTIFICATE_2" target="_blank">Quantum Mechanics - University of Colorado via Coursera</a></li>
+                <li><a href="URL_FOR_CERTIFICATE_3" target="_blank">Dense Gases, Liquids and Solids Ideal Gases - University of Colorado via Coursera</a></li>
+                <li><a href="URL_FOR_CERTIFICATE_4" target="_blank">Statistical Molecular Thermodynamics - University of Minnesota via Coursera</a></li>
+            </ul>
+        </div>
+        
     </div>
     <footer>
-        © 2024 Murali Ganesh Peddireddy. All Rights Reserved.
+        <p>&copy; 2024 Murali Ganesh Peddireddy. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
